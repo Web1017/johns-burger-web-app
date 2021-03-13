@@ -200,7 +200,7 @@ h4 {
 
 .welcome-img img {
   width: 100%;
-  height: 100%;
+  height: 50%;
 }
 
 #services {
@@ -366,17 +366,6 @@ footer .social {
   padding-left: 30px;
 }
 
-footer .subscribe {
-  grid-column: 1/6;
-  display: flex;
-  margin: 20px 20px;
-}
-
-footer .subscribe input {
-  background-color: #222;
-  border-radius: 0%;
-}
-
 footer .copyright {
   grid-column: 1/3;
   font-size: 0.8em;
@@ -431,11 +420,6 @@ footer .copyright {
   footer .social {
     grid-column: 2/3;
     padding-left: 50px;
-  }
-
-  footer .subscribe {
-    grid-column: 2/5;
-    margin-left: 60px;
   }
 }
 
@@ -541,11 +525,6 @@ footer .copyright {
 
   footer .social {
     grid-column: 2/4;
-  }
-
-  footer .subscribe {
-    grid-column: 2/5;
-    margin-left: 60px;
   }
 }
 
@@ -700,20 +679,6 @@ footer .copyright {
     display: flex;
     padding-left: 30px;
     padding-top: 20px;
-  }
-
-  footer .subscribe {
-    background: #222;
-    grid-column: 8/9;
-    display: flex;
-    margin-top: -60px;
-    height: 45px;
-    width: 40px;
-  }
-
-  footer .subscribe input {
-    border-radius: 0%;
-    padding: 0 20px;
   }
 
   footer .copyright {
